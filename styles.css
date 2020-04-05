@@ -19,9 +19,6 @@ header {
     align-items: center;
 }
 
-.icon {
-    /* background-color: skyblue; */
-}
 
 .icon img {
     border-radius: 50%;
@@ -86,4 +83,12 @@ footer p {
     margin-bottom: 60px;
     font-size: 14px;
     color: gray;
+}
+
+.first-icon img{
+    border-radius: 50%;
+}
+
+.first-icon{
+    display: flex;
 }
