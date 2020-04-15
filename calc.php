@@ -32,14 +32,14 @@
     </pre>
     <p>数字を入力してください</p>
     <form action="calc.php" method="POST">
-        <input type="text" name="num1">
+        <input type="text" name="num1" value="<?php echo $num1; ?>">
         <select name="kigou" size="1">
             <option value="plus">+</option>
             <option value="minus">-</option>
             <option value="mul">×</option>
             <option value="div">÷</option>
         </select>
-        <input type="text" name="num2">
+        <input type="text" name="num2" value="<?php echo $num2; ?>">
         <input type="submit" value="=">
         <?php echo $kekka; ?>
 
