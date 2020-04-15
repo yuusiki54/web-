@@ -28,11 +28,6 @@
             case "div":
                 $kekka = $num1 / $num2;
         }
-        
-
-        // if(isset($_POST['$num1'])){
-
-        // }
         ?>
     </pre>
     <p>数字を入力してください</p>
@@ -49,43 +44,6 @@
         <?php echo $kekka; ?>
 
     </form>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- <form method="POST">
-        <input type="text" name="num1">
-        <select name="kigou">
-            <option value="plus">+</option>
-            <option value="minus">-</option>
-            <option value="mul">*</option>
-            <option value="div">/</option>
-        </select>
-        <input type="text" name="num2">
-        <input type="submit" value="=">
-    </form> -->
-</body>
-
 </body>
 
 </html>
