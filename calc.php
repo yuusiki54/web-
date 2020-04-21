@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <h1>簡単な計算機</h1>
+    <h1>簡単な計算機.</h1>
     <pre>
         <?php
         $num1 = $_POST["num1"];
